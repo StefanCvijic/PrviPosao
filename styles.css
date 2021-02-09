@@ -146,6 +146,8 @@
     transition: 0.5s;
 }
 
+
+
 .social li i:hover {
     transform:scale(0.5) translateY(-15px);
 }
@@ -183,7 +185,7 @@
     .text h2 {
         font-size: 3em;
     }
-    /text h3 {
+    text h3 {
         font-size: 2em;
     }
 }
