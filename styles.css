@@ -183,6 +183,10 @@
     cursor:pointer;
 }
 
+.active-link li a {
+    color: rgb(100, 55, 4) !important;
+}
+
 @media(max-width: 798px) {
     .showcase, 
     .showcase header{
