@@ -1,3 +1,6 @@
+<?php
+include 'menu.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,10 +19,11 @@
                 <i class="fas fa-bars"></i>
             </div>
         </header>
-        
+
         <video src="foto.mp4" muted loop autoplay></video>
 
         <div class="overlay"></div>
+
         <div class="text">
             
             <h3>Su vjecna sjecanja</h3>
@@ -29,15 +33,9 @@
         </div>
 
     </section>
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="novosti.html">Novosti</a></li>
-                <div class="active-link"><li><a href="usluge.html">Usluge</a></li></div>
-                <li><a href="oNama.html">O nama</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </div>
+
+        
         <script src="scripts.js"></script>
+        <script src="menu-script.js"></script> 
 </body>
-</html>        
+</html>          

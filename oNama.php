@@ -1,3 +1,6 @@
+<?php
+include 'menu.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,16 +33,7 @@
         </div>
 
     </section>
-
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="novosti.html">Novosti</a></li>
-                <li><a href="usluge.html">Usluge</a></li>
-                <li><a href="oNama.html">O nama</a></li>
-                <div class="active-link"><li><a href="kontakt.html">Kontakt</a></li></div>
-            </ul>
-        </div> 
-        <script src="scripts.js"></script> 
+        <script src="scripts.js"></script>
+        <script src="menu-script.js"></script>
 </body>
-</html>          
+</html>           

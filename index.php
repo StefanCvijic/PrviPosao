@@ -1,3 +1,6 @@
+<?php
+include 'menu.php';
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,21 +31,14 @@
                  Debitis ab necessitatibus error id, ullam laborum corporis reiciendis facere perspiciatis consectetur!</p>
                  <a href="#">Istrazi</a>
         </div>
+ 
         <ul class="social ">
             <li><i class="fab fa-facebook"></i></li>
             <li><i class="fab fa-instagram"></i></li>
             <li><i class="fab fa-twitter"></i></li>
         </ul>
     </section>
-    <div class="menu">
-        <ul>
-            <div class="active-link"><li><a href="index.html">Home</a></li></div>
-            <li><a href="novosti.html">Novosti</a></li>
-            <li><a href="usluge.html">Usluge</a></li>
-            <li><a href="oNama.html">O nama</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-    </div>
-    <script src="scripts.js"></script>
+     <script src="scripts.js"></script>
+     <script src="menu-script.js"></script>
 </body>
 </html>
