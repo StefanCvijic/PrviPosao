@@ -69,7 +69,7 @@
     height: 100%;
     object-fit: cover;
     opacity: 0.75;
-    
+
 }
 
 .overlay {
@@ -136,21 +136,21 @@
 }
 
 .social li {
-    list-style: none; 
+    list-style: none;
 }
 
 .social li i {
     display: inline-block;
     filter: invert(0);
     margin-right: 25px;
-    transform:scale(0.5); 
-    transition: 0.5s; 
+    transform:scale(0.5);
+    transition: 0.5s;
 }
 
 
 
 .social li i:hover {
-    transform:scale(0.5) translateY(-15px); 
+    transform:scale(0.5) translateY(-15px);
 }
 
 .menu {
@@ -162,13 +162,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .menu ul {
     position: relative;
     list-style: none;
-    
+
 }
 .menu ul li a {
     text-decoration: none;
@@ -178,19 +178,17 @@
     transition: color 0.5s;
 }
 
-.menu ul li a.active {
-    color: rgb(100, 55, 4) !important;
-}
-
 .menu ul li a:hover {
     color: rgb(100, 55, 4);
     cursor:pointer;
 }
 
-
+.active-link a {
+    color: rgb(100, 55, 4) !important;
+}
 
 @media(max-width: 798px) {
-    .showcase, 
+    .showcase,
     .showcase header{
         padding: 30px;
     }

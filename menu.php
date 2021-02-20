@@ -1,11 +1,24 @@
+<?php
+// Ovde sam napravio niz koji ima key => value
+$pages = array(
+    'home.php' => 'Home',
+    'new.php' => 'Novosti',
+    'service.php' => 'Usluge',
+    'about.php' => 'O nama',
+    'contact.php' => 'Kontakt'
+);
+?>
 
 <div class="menu">
-        <ul>
-            <li><a class="active" href="index.php">Home</a></li>
-            <li><a href="novosti.php">Novosti</a></li>
-            <li><a href="usluge.php">Usluge</a></li>
-            <li><a href="oNama.php">O nama</a></li>
-            <li><a href="kontakt.php">Kontakt</a></li>
-        </ul>
+    <ul class="nav">
+    <!-- Prolazim kroz niz sa foreach petljom.
+    $_GET['pg'] -> sa ovim uzimas podatke iz URL-a, i tu vidis na kojoj se strani korisnik trenutno nalazi.
+    Kada prolazi kroz niz, uzimam (key) -> $pageId, I to uporedjujem sa $_GET['pg'].
+    Ako je key jedna stranici iz URL-a, stavljam css klasu active-link na tu stanicu u meniju.
+    Koristim sam ternary operator IF, variable = (condition) ? expressionTrue :  expressionFalse;
+    https://www.codegrepper.com/code-examples/delphi/ternary+operator+w3schools -->
+        <?php foreach ($pages as $pageId => $pageTitle) : ?>
+            <li <?= (($_GET['pg'] == $pageId) ? 'class="active-link"' : '') ?>><a href="?pg=<?= $pageId ?>"><?= $pageTitle ?></a></li>
+        <?php endforeach; ?>
+    </ul>
 </div>
-    

@@ -1,16 +1,6 @@
-<?php
-include 'menu.php';
-?> 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="Width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="styles.css"/>
-    <title>Savic-Foto</title>
-     <link rel="shortcut icon" type="image/png" href="img/2x/desktop.png">
-</head>
-<script src="https://kit.fontawesome.com/56088f2538.js" crossorigin="anonymous"></script>
+<?php include('header.php'); ?>
 <body>
     <section class="showcase ">
         <header>
@@ -18,12 +8,9 @@ include 'menu.php';
             <div class="toggle">
                 <i class="fas fa-bars"></i>
             </div>
-            
         </header>
         <video src="foto.mp4" muted loop autoplay></video>
-
         <div class="overlay"></div>
-
         <div class="text">
             <h2>Fotografije</h2>
             <h3>Su vjecna sjecanja</h3>
@@ -31,14 +18,13 @@ include 'menu.php';
                  Debitis ab necessitatibus error id, ullam laborum corporis reiciendis facere perspiciatis consectetur!</p>
                  <a href="#">Istrazi</a>
         </div>
- 
         <ul class="social ">
             <li><i class="fab fa-facebook"></i></li>
             <li><i class="fab fa-instagram"></i></li>
             <li><i class="fab fa-twitter"></i></li>
         </ul>
     </section>
-     <script src="scripts.js"></script>
-     <script src="menu-script.js"></script>
+    <?php include('menu.php'); ?>
+    <script src="scripts.js"></script>
 </body>
 </html>
