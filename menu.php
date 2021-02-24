@@ -1,8 +1,8 @@
 <?php
 // Ovde sam napravio niz koji ima key => value
 $pages = array(
-    'home.php' => 'Home',
-    'new.php' => 'Novosti',
+    'index.php' => 'Home',
+    'news.php' => 'Novosti',
     'service.php' => 'Usluge',
     'about.php' => 'O nama',
     'contact.php' => 'Kontakt'
