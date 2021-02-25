@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include('header.php'); ?>
+
 <body>
     <section class="showcase ">
         <header>
@@ -22,7 +23,7 @@
         </div>
 
     </section>
-        <?php include('menu.php'); ?>
+        <?php include('menuV2.php'); ?>
         <script src="scripts.js"></script>
 </body>
 </html>

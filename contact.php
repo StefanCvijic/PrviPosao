@@ -24,7 +24,7 @@
 
     </section>
 
-        <?php include('menu.php'); ?>
+        <?php include('menuV2.php'); ?>
         <script src="scripts.js"></script>
 </body>
 </html>
