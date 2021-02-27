@@ -14,14 +14,15 @@
 
         <div class="overlay"></div>
 
-        <div class="text">
-
-            <h3>Su vjecna sjecanja</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                 Debitis ab necessitatibus error id, ullam laborum corporis reiciendis facere perspiciatis consectetur!</p>
-                 <a href="#">Istrazi</a>
+        <div class="text1">
+           <h2> Novosti kod nas!</h2>
         </div>
-
+        <div class="image-slider">
+            <img src="img/drone.jpg">
+        </div>
+        <div class="dron-text">
+            <h3>Snimci iz nove perspektive :)</h3>
+        </div>    
     </section>
         <?php include('menuV2.php'); ?>
         <script src="scripts.js"></script>

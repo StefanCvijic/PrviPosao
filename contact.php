@@ -19,7 +19,7 @@
             <h3>Su vjecna sjecanja</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                  Debitis ab necessitatibus error id, ullam laborum corporis reiciendis facere perspiciatis consectetur!</p>
-                 <a href="#">Istrazi</a>
+                 <a href="#">Pozovi nas</a>
         </div>
 
     </section>

@@ -81,6 +81,29 @@
     background: rgba(150, 96, 7, 0.3)
 }
 
+.text1 {
+    z-index: 10;
+    margin-bottom: 450px;
+}
+
+.image-slider {
+    z-index: 10;
+    
+}
+.image-slider img {
+    border-color: black;
+    border-radius: 30px;
+    margin-right: 1000px;
+    margin-bottom: 425px;
+}
+
+.dron-text {
+    z-index: 10;
+    margin-left: -1000px;
+    margin-right: 400px;
+    margin-bottom: 450px;
+}
+
 .text {
     position: relative;
     z-index: 10;
@@ -104,7 +127,7 @@
     font-size: 1.1em;
     margin: 20px 0;
     font-weight: 400;
-    max-width: 700px;
+    width: 700px;
 }
 
 .text a {
@@ -187,7 +210,9 @@
     color: rgb(100, 55, 4) !important;
 }
 
-@media(max-width: 798px) {
+
+
+@media(width: 798px) {
     .showcase,
     .showcase header{
         padding: 30px;
