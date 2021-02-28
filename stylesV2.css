@@ -83,7 +83,8 @@
 
 .text1 {
     z-index: 10;
-    margin-bottom: 450px;
+    position: absolute;
+    margin-bottom: 280px;
 }
 
 .image-slider {
@@ -92,16 +93,49 @@
 }
 .image-slider img {
     border-color: black;
-    border-radius: 30px;
-    margin-right: 1000px;
-    margin-bottom: 425px;
+    border-radius: 40px;
+    margin-right: 630px;
+    margin-bottom: 120px;
+    position: relative;
+    top: -75px;
+    right: -235px;
+    
 }
 
 .dron-text {
     z-index: 10;
-    margin-left: -1000px;
-    margin-right: 400px;
-    margin-bottom: 450px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 650px;
+    top: 170px;
+}
+.text1-2 {
+    z-index: 10;
+    position: relative;
+    right: 575px;
+    bottom: -125px;
+}
+
+.studio-text-2 {
+    z-index: 10;
+    
+    position: absolute;
+    right: 125px;
+    bottom: 185px;
+}
+
+.image-slider-2 {
+    z-index: 10;
+}
+
+.image-slider-2 img {
+    z-index: 10;
+    border-radius: 40px;
+    position: absolute;
+    left: 690px;
+    top: 365px;
 }
 
 .text {
