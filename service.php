@@ -4,7 +4,7 @@
 <body>
     <section class="showcase ">
         <header>
-            <h2 class="logo">Savic</h2>
+            <h2 class="logo">DS-FOTO</h2>
             <div class="toggle ">
                 <i class="fas fa-bars"></i>
             </div>

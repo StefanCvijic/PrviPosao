@@ -138,6 +138,8 @@
     top: 365px;
 }
 
+
+
 .text {
     position: relative;
     z-index: 10;
@@ -257,4 +259,26 @@
     text h3 {
         font-size: 2em;
     }
+}
+
+.text-4 {
+    position: relative;
+    z-index: 10;
+}
+
+.text-4 a {
+    display: inline-block;
+    font-size: 1em;
+    background: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #111;
+    margin-top: 350px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.text-4 a:hover {
+    letter-spacing: 5px;
 }

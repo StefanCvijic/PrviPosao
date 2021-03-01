@@ -4,7 +4,7 @@
 <body>
     <section class="showcase ">
         <header>
-            <h2 class="logo">Savic</h2>
+            <h2 class="logo">DS-FOTO</h2>
             <div class="toggle ">
                 <i class="fas fa-bars"></i>
             </div>
@@ -14,13 +14,15 @@
 
         <div class="overlay"></div>
 
-        <div class="text">
-
-            <h3>Su vjecna sjecanja</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                 Debitis ab necessitatibus error id, ullam laborum corporis reiciendis facere perspiciatis consectetur!</p>
-                 <a href="#">Pozovi nas</a>
-        </div>
+        <div class="text-4">
+                 <a href="https://www.facebook.com/dragan.savic.ds.foto">Nas facebook</a>
+        </div>         
+        <div class="text-4">
+                 <a href="https://www.instagram.com/dragan_savic71/">Nas instagram</a>
+        </div>                          
+        <div class="text-4">
+                 <a href="#">Nas twitter</a>
+        </div>         
 
     </section>
 
