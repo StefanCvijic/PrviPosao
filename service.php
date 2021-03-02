@@ -15,10 +15,12 @@
         <div class="overlay"></div>
         <div class="text">
 
-            <h3>Su vjecna sjecanja</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                 Debitis ab necessitatibus error id, ullam laborum corporis reiciendis facere perspiciatis consectetur!</p>
-                 <a href="#">Istrazi</a>
+            <h3>Koje usluge trenutno nudimo?</h3>
+            <p>Pratimo vase velike trenutke(FOTO/VIDEO/IZRADA).</p>
+            <p>Porodicna slikanja u nasoj radnji.</p>
+            <p>Slikanje u prirodi.</p>
+                
+                
         </div>
 
     </section>
